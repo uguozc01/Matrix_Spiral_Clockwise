@@ -3,9 +3,6 @@
 
     ABSTRACT:
 
-    Writing a short code does not always mean it is a good quality code in terms of performance. 
-    Equally writing a bit longer code does not mean it is a bad code!
-
     Numpy array is densely packed in memory due to its homogeneous type, it also frees the memory faster. 
     So overall a task executed in Numpy is around 5 to 100 times faster than the standard python list
 '''
