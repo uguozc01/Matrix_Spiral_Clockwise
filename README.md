@@ -26,9 +26,10 @@ using loop inside loops, like the following:
 
     for i in range(r * c)    # where r, c are row and columns.
 ```
+
 so for a **200 x 100** matrix let's calculate how many loops you need! 
 
-*** loops = 200 * 100 = 20,000 times! ***
+**loops = 200 x 100 = 20,000 times!**
 
 However, I have found a very efficient way to decrease the time complexity O(N).
 The advantage of my approach is there is no loop inside loops. There is only a certain number
@@ -38,9 +39,9 @@ decrease in spent time for calculations compared to those O(n^2) solutions.
 
 Let's now calculate the required loops according to my approach, we will only need 
 
-*** road = 2 x len(M) - 1**            which yields 199
-*** loop_count = (road // 4) + 1**
-*** loop_count = 199 // 4  + 1**       which is 50 times, so it means 200 times less looping!
+**road = 2 x len(M) - 1**            which yields 199
+**loop_count = (road // 4) + 1**
+**loop_count = 199 // 4  + 1**       which is 50 times, so it means 200 times less looping!
 
 
 ## Algorithm:
