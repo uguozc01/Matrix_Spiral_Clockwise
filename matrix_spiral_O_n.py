@@ -235,7 +235,7 @@ def print_matrix_spiral(M):
         road = 2 * len(M) - 1
     elif M.shape[0] > M.shape[1]:
         road = 2 * len(M[0])
-    loop = (road // 4) + 1    # This is the total number of 360 degree turns towards inside. Test it with 6x6 matrix. you will see you will be covering 3 times 360 degree turns, and 12 times slicing.
+    loop = (road // 4) + 1    # This is the total number of 360 degree turns towards inside. Test it with 7x6 matrix first. you will see you will be covering 3 times 360 degree turns, and 12 times slicing.
     result = []
     i, j = 0, 0
     r,c = M.shape[0], M.shape[1]
