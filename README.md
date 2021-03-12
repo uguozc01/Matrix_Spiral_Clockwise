@@ -41,7 +41,7 @@ Let's now calculate the required loops according to my approach, we will only ne
 
 **road = 2 x len(M) - 1**            which yields 199
 **loop_count = (road // 4) + 1**
-**loop_count = 199 // 4  + 1**       which is 50 times, so it means 200 times less looping!
+**loop_count = 199 // 4  + 1**       which is 50 times, so it means 400 times less looping!
 
 
 ## Algorithm:
